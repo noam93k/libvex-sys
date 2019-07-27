@@ -3,6 +3,7 @@ name = "vex-sys"
 version = "0.1.0"
 authors = ["Noam Kleinburd <noam93k@gmail.com>"]
 edition = "2018"
+license = "MIT"
 
 [dependencies]
 libc = "0.2.60"
