@@ -3,6 +3,11 @@ name = "vex-sys"
 version = "0.1.0"
 authors = ["Noam Kleinburd <noam93k@gmail.com>"]
 edition = "2018"
+description = "Bindings for valgrind's LibVEX."
+repository = "https://github.com/noam93k/libvex-sys"
+readme = "README.md"
+keywords = ["valgrind", "bindings", "vex", "ir"]
+categories = ["external-ffi-bindings"]
 license = "MIT"
 
 [dependencies]
