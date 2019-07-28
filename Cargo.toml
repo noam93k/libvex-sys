@@ -9,6 +9,18 @@ readme = "README.md"
 keywords = ["valgrind", "bindings", "vex", "ir"]
 categories = ["external-ffi-bindings"]
 license = "MIT"
+include = [
+    "/build.rs",
+    "/wrapper.h",
+    "/src/**.rs",
+    "/valgrind/autogen.sh",
+    "/valgrind/**/*.ac",
+    "/valgrind/**/*.am",
+    "/valgrind/**/*.in",
+    "/valgrind/**/*.c",
+    "/valgrind/**/*.h",
+    "/valgrind/VEX",
+]
 
 [dependencies]
 libc = "0.2.60"
