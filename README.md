@@ -1,3 +1,6 @@
+# Archived
+Moved to [libvex-rs](github.com/noam93k/libvex-rs).
+
 # libvex-sys
 
 Low-level, unsafe Rust bindings for [Valgrind's](www.valgrind.org) Intermediate Representation library.
